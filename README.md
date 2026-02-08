@@ -10,7 +10,7 @@ This Homebrew Tap installs [AtCoder Library (ACL)](https://github.com/atcoder/ac
 brew tap tatyam-prime/homebrew-acl
 brew install ac-library
 # add `$(brew --prefix)/include` to default include path
-echo 'export CPLUS_INCLUDE_PATH="$(brew --prefix)/include:${CPLUS_INCLUDE_PATH}"' >> ~/.zshrc
+echo 'export CPLUS_INCLUDE_PATH="'$(brew --prefix)'/include:${CPLUS_INCLUDE_PATH}"' >> ~/.zshrc
 export CPLUS_INCLUDE_PATH="$(brew --prefix)/include:${CPLUS_INCLUDE_PATH}"
 ```
 
@@ -22,7 +22,7 @@ expander.py -h
 ```
 
 > [!NOTE]
-> To use `expander.py`, you need `python3` available in your `PATH`.
+> To use `expander.py`, you need `python3` available in your `$PATH`.
 
 ## How to compile C++ code with AC Library
 
