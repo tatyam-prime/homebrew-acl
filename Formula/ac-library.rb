@@ -19,7 +19,8 @@ class AcLibrary < Formula
     msg << "To compile C++ code with AC Library, run:\n\n"
     msg << "    g++ main.cpp -I\"#{HOMEBREW_PREFIX}/include\"\n\n"
 
-    msg << "To avoid specifying `-I\"#{HOMEBREW_PREFIX}/include\"` every time, you can add it to your environment:\n\n"
+    msg << "To avoid specifying `-I\"#{HOMEBREW_PREFIX}/include\"` every time, "
+    msg << "you can add it to your environment:\n\n"
     msg << "    echo 'export CPLUS_INCLUDE_PATH=\"#{HOMEBREW_PREFIX}/include:${CPLUS_INCLUDE_PATH}\"' >> ~/.zshrc\n"
     msg << "    export CPLUS_INCLUDE_PATH=\"#{HOMEBREW_PREFIX}/include:${CPLUS_INCLUDE_PATH}\"\n\n"
 
