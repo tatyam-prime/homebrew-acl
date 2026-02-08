@@ -1,5 +1,7 @@
 # homebrew-acl
 
+[日本語](./README.ja.md) | English
+
 This Homebrew Tap installs [AtCoder Library (ACL)](https://github.com/atcoder/ac-library) headers and the expander script.
 
 ## Install
@@ -58,3 +60,7 @@ To show help message, run:
 ```bash
 expander.py -h
 ```
+
+## Read what this Tap will do
+
+[Formula/ac-library.rb](Formula/ac-library.rb)
