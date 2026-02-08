@@ -35,7 +35,7 @@ g++ main.cpp -I"$(brew --prefix)/include"
 To avoid specifying `-I"$(brew --prefix)/include"` every time, you can add it to your environment:
 
 ```bash
-echo 'export CPLUS_INCLUDE_PATH="$(brew --prefix)/include:${CPLUS_INCLUDE_PATH}"' >> ~/.zshrc
+echo 'export CPLUS_INCLUDE_PATH="'$(brew --prefix)'/include:${CPLUS_INCLUDE_PATH}"' >> ~/.zshrc
 export CPLUS_INCLUDE_PATH="$(brew --prefix)/include:${CPLUS_INCLUDE_PATH}"
 ``` 
 

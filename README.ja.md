@@ -35,7 +35,7 @@ g++ main.cpp -I"$(brew --prefix)/include"
 以下のように環境変数に追加しておけば、毎回 `-I"$(brew --prefix)/include"` を指定する必要がなくなります:
 
 ```bash
-echo 'export CPLUS_INCLUDE_PATH="$(brew --prefix)/include:${CPLUS_INCLUDE_PATH}"' >> ~/.zshrc
+echo 'export CPLUS_INCLUDE_PATH="'$(brew --prefix)'/include:${CPLUS_INCLUDE_PATH}"' >> ~/.zshrc
 export CPLUS_INCLUDE_PATH="$(brew --prefix)/include:${CPLUS_INCLUDE_PATH}"
 ``` 
 
