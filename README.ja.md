@@ -7,7 +7,7 @@
 ## インストール
 
 ```bash
-brew tap tatyam-prime/homebrew-acl
+brew tap tatyam-prime/acl
 brew install ac-library
 # デフォルトの include path に `$(brew --prefix)/include` を追加
 echo 'export CPLUS_INCLUDE_PATH="'$(brew --prefix)'/include:${CPLUS_INCLUDE_PATH}"' >> ~/.zshrc
